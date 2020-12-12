@@ -1,31 +1,85 @@
-.App {
-  text-align: center;
+.center {
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-small {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-ed {
+  height: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tableauPlaceholder {
+  width: 1260px; 
+  height: 624px;
 }
 
-.App-link {
-  color: #61dafb;
+.tableauViz {
+  width: 1260px;
+  height: 624px;
+  display:none;
+}
+
+.nav {
+  background-color: #333333;
+}
+
+
+.cont {
+  background-color: #99E1D9;
+}
+
+.li {
+  color: #99E1D9;
+  font-family: 'Work Sans', sans-serif;
+  margin-right:0px;
+}
+
+.right {
+  text-align: right;
+}
+
+.bio {
+  color: #333333;
+  /*text-shadow: .5px .5px #f7f7f7;*/
+  font-family: 'Work Sans', sans-serif;
+}
+
+.name {
+  color: #333333;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ed {
+  color: #333333;
+  /*text-shadow: .5px .5px #f7f7f7;*/
+  font-family: 'Work Sans', serif;
+
+}
+.thesis {
+  font-size: 14px;
+}
+
+.italic {
+  font-style: italic;
+}
+.ed-res {
+  margin-left: auto;
+}
+
+.school {
+  padding-top: 40px;
+}
+
+.sum-desc {
+  width: 500px;
+  padding-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
