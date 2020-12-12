@@ -7,13 +7,13 @@ import luc from './luc.png';
 import uncw from './uncw.png';
 
 function Resume() {
-  return (<Container className="">
+  return (<Container>
   			<Row><Name name="Cyrus Goudarzi"/></Row>
   			<Row><p className="center">cgoudarzi@gmail.com | <a href="https://www.linkedin.com/in/cyrus-goudarzi">LinkedIn</a></p></Row>
   			<Row><Name name="Summary"/></Row>
   			<Row><p className="center">Software Development | Data Science</p></Row>
-  			<Row><p className="sum-desc center">Versatile and creative professional, currently pursuing a masters degree in Computer Science and Information Systems. Fast learner with a background in communications and education. Collaborative nature and desire to continue growing as a programmer and learning through working with other industry professionals. Open to relocation.</p></Row>
-  			<Row><p className="center">HTML ▪ CSS ▪ Javascript ▪ Tableau ▪ Python ▪ Node.js ▪ R ▪ Pandas ▪ MVC Framework ▪ Git ▪ SQL</p></Row>
+  			<Row><p className="sum-desc center res-padding">Versatile and creative professional, currently pursuing a masters degree in Computer Science and Information Systems. Fast learner with a background in communications and education. Collaborative nature and desire to continue growing as a programmer and learning through working with other industry professionals. Open to relocation.</p></Row>
+  			<Row><p className="center res-padding">HTML ▪ CSS ▪ Javascript ▪ Tableau ▪ Python ▪ Node.js ▪ R ▪ Pandas ▪ MVC Framework ▪ Git ▪ SQL</p></Row>
   			<Row><Name name="Education"/></Row>
   			<Row>
             <Col xs={12} md={6}>
