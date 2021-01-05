@@ -10,12 +10,13 @@ import {
 // import bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Row, Col, Nav, Image} from 'react-bootstrap';
+import { Container, Row, Col, Nav, NavDropdown, Image} from 'react-bootstrap';
 
 // import Components
 import Name from './Name.js';
 import Bio from './Bio.js';
 import Res from './Resume.js';
+import ResPDF from './ResumePDF.js';
 
 // import assetts
 import prof from './gradprof.jpg';
@@ -25,15 +26,25 @@ function App() {
             <div>
               <Nav className="nav" defaultActiveKey="/home" as="ul">
                 <Nav.Item as="li">
-                  <Nav.Link className="li" href="/home" >Cyrus Goudarzi</Nav.Link>
+                  <Nav.Link className="li" href="/home" >Home</Nav.Link>
                 </Nav.Item>
-                <Nav.Item as="li" >
-                  <Nav.Link className="li"  href="/resume" eventKey="resume">Resume</Nav.Link>
-                </Nav.Item>
+                <NavDropdown title="Resume" id="resume">
+                  <NavDropdown.Item href="/resume/html">HTML</NavDropdown.Item>
+                  <NavDropdown.Item href="/resume/pdf">PDF</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="Portfolio" id="portfolio">
+                  <NavDropdown.Item href="/portfolio/1">Coming Soon</NavDropdown.Item>
+                </NavDropdown>
               </Nav>
               <Switch>
-                <Route path="/resume">
+                <Route path="/portfolio">
+                  <h1>PLACEHOLDER</h1>
+                </Route>
+                <Route path="/resume/html">
                   <Resume/>
+                </Route>
+                <Route path="/resume/pdf">
+                  <ResPDF/>
                 </Route>
                 <Route path="/">
                   <Home/>

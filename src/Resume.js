@@ -12,23 +12,23 @@ function Resume() {
   			<Row><p className="center">cgoudarzi@gmail.com | <a href="https://www.linkedin.com/in/cyrus-goudarzi">LinkedIn</a></p></Row>
   			<Row><Name name="Summary"/></Row>
   			<Row><p className="center">Software Development | Data Science</p></Row>
-  			<Row><p className="sum-desc center res-padding">Versatile and creative professional, currently pursuing a masters degree in Computer Science and Information Systems. Fast learner with a background in communications and education. Collaborative nature and desire to continue growing as a programmer and learning through working with other industry professionals. Open to relocation.</p></Row>
+  			<Row><p className="sum-desc center res-padding">Versatile and creative professional, recent graduate with a masters degree in Computer Science and Information Systems. Fast learner with a background in communications and education. Collaborative nature and desire to continue growing as a programmer and learning through working with other industry professionals. Open to relocation.</p></Row>
   			<Row><p className="center res-padding">HTML ▪ CSS ▪ Javascript ▪ Tableau ▪ Python ▪ Node.js ▪ R ▪ Pandas ▪ MVC Framework ▪ Git ▪ SQL</p></Row>
   			<Row><Name name="Education"/></Row>
   			<Row>
             <Col xs={12} md={6}>
-              <Image src={uncw} rounded className="img-small img-ed"/>
+              <Ed school="University of North Carolina at Wilmington" year="2018 - 2020" degree="M.S. Computer Science and Information Systems" title="Text Analytics and Spatial Visualization of Social Media Data during the Various Stages of a Disaster: The Case of Hurricane Dorian" thesis="Text data analysis project to further understand the disaster lifecycle and develop a dashboard that visualizes text data analysis spatially and temporally using Python, Django, Pandas, Plotly.js, and Tableau. This abstract was accepted under Technology Research, Education, and Opinion (TREO) Talk Sessions for Americas Conference of Information Systems 2020."/>
             </Col>
             <Col xs={12} md={6}>
-              <Ed school="University of North Carolina at Wilmington" year="2018 - 2020" degree="M.S. Computer Science and Information Systems" title="Text Analytics and Spatial Visualization of Social Media Data during the Various Stages of a Disaster: The Case of Hurricane Dorian" thesis="Text data analysis project to further understand the disaster lifecycle and develop a dashboard that visualizes text data analysis spatially and temporally using Python, Django, Pandas, Plotly.js, and Tableau. This abstract was accepted under Technology Research, Education, and Opinion (TREO) Talk Sessions for Americas Conference of Information Systems 2020."/>
+              <Image src={uncw} rounded className="img-small img-ed"/>
             </Col>
             </Row>
             <Row>
             <Col xs={12} md={6}>
-              <Image src={luc} rounded className="img-small img-ed"/>
+              <Ed school="Loyola University Chicago" year="2009 - 2014" degree="B.A. Communication Studies"/>
             </Col>
             <Col xs={12} md={6}>
-              <Ed school="Loyola University Chicago" year="2009 - 2014" degree="B.A. Communication Studies"/>
+              <Image src={luc} rounded className="img-small img-ed"/>
             </Col>
             </Row>
             <Row><Name name="Work Experience"/></Row>
