@@ -2,6 +2,12 @@
   margin: auto;
 }
 
+.portfolio {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
 .res-padding {
   padding-left: 10px;
   padding-right: 10px;
